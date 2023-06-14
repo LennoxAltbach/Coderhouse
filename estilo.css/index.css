@@ -138,21 +138,23 @@ p {
 }
 
 .productosimg{
-    justify-content: center;
-    padding: 10px;
-    margin: 20px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
-.img-div img{
-    margin: 10px;
-    border-radius: 15px;
+.productosimg :hover{
+    transform: scale(1.035);
+}
+
+.productos{
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  border-radius: 30px;
 }
 .img-div p{
-    display: flex;
-    padding-left: 20px;
     color: white;
 }
+
 
 .trabaja-con-nosotros{
     display: flex;
@@ -211,9 +213,6 @@ p {
         background: rgba(0, 0, 0, 0.466);
         color: white;
     }
-    footer{
-        text-align: center;
-    }
     .sobre-nosotros h2{
         font-size: 2rem;
         color: white;
@@ -237,4 +236,20 @@ p {
         font-size: 0.75rem;
         text-align: center;
        }
+       .productosimg{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+       .productos{
+        padding: 10px;
+        width: 120px;
+        height: 120px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+       .img-div p{
+       color: white;
+       font-size: 0.8rem;
+    }
+
 }
