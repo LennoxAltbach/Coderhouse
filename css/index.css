@@ -126,9 +126,11 @@ p {
 
 .productosimg {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); }
-  .productosimg:hover {
-    transform: scale(1.035); }
+  grid-template-columns: repeat(4, 1fr);
+ }
+.img-div:hover {
+  transform: scale(1.035); 
+}
 
 .productos {
   padding: 10px;
@@ -146,7 +148,8 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  position: relative; }
+  position: relative; 
+}
 
 .trabaja-con-nosotros-background {
   width: 95%;
