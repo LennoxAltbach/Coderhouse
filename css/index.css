@@ -126,11 +126,7 @@ p {
 
 .productosimg {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
- }
-.img-div:hover {
-  transform: scale(1.035); 
-}
+  grid-template-columns: repeat(4, 1fr); }
 
 .productos {
   padding: 10px;
@@ -141,6 +137,9 @@ p {
 .img-div p {
   color: white; }
 
+.img-div:hover {
+  transform: scale(1.08); }
+
 .trabaja-con-nosotros {
   display: flex;
   justify-content: center;
@@ -148,8 +147,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  position: relative; 
-}
+  position: relative; }
 
 .trabaja-con-nosotros-background {
   width: 95%;
@@ -254,4 +252,6 @@ p {
     object-fit: cover; }
   .img-div p {
     color: white;
-    font-size: 0.8rem; } }
+    font-size: 0.8rem; }
+  .img-div:hover {
+    transform: scale(1.04); } }

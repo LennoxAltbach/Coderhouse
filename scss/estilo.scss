@@ -1,10 +1,6 @@
-$color_1: white;
-$color_2: #fff;
-$font-family_1: arial;
-$font-family_2: Arial;
-$font-family_3: Arial, Helvetica, sans-serif;
-$background-color_1: black;
-$background-color_3: #333;
+@import "variables.scss";
+@import "mixins.scss";
+
 
 body {
 	background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(38,51,97,1) 0%, rgba(65,143,222,1) 79% );
@@ -152,9 +148,6 @@ p {
 .productosimg {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	&:hover {
-		transform: scale(1.035);
-	}
 }
 .productos {
 	padding: 10px;
@@ -165,6 +158,9 @@ p {
 .img-div {
 	p {
 		color: $color_1;
+	}
+    &:hover {
+		transform: scale(1.08);
 	}
     
 }
@@ -306,5 +302,8 @@ p {
 			color: $color_1;
 			font-size: 0.8rem;
 		}
+        &:hover {
+            transform: scale(1.04);
+        }
 	}
 }

@@ -1,0 +1,7 @@
+@mixin link-hover-effect {
+    &:hover {
+      background-color: rgb(38, 51, 97);
+      border-radius: 90%;
+    }
+  }
+  
