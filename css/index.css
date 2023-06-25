@@ -198,8 +198,8 @@ p {
       color: white;
       padding: 1px 3px 1px 3px;
       display: flex;
-      width: 24px;
       justify-content: center;
+      width: 24px;
       height: 28px; }
     nav .menu-toggle-container ul li::marker {
       color: white; }

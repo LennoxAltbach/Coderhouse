@@ -162,8 +162,7 @@ p {
     
 }
 .trabaja-con-nosotros {
-	display: flex;
-	justify-content: center;
+	@include display-justify-content;
 	align-items: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -189,8 +188,7 @@ p {
 	padding-bottom: 6px;
 }
 .contacto {
-	display: flex;
-	justify-content: center;
+	@include display-justify-content;
 	align-items: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -223,9 +221,8 @@ p {
                 border-radius: 5px;
                 color:white;   
                 padding: 1px 3px 1px 3px;
-                display: flex;
+                @include display-justify-content;
                 width: 24px;         
-                justify-content: center;
                 height: 28px;
             }
 
